@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Vamos rachar</string>
+
+    <string name="descLogoApp">Logo da aplicação vamos rachar</string>
+    <string name="descEntradaValor">Informe o valor total da conta</string>
+    <string name="descEntradaQtdPessoas">Informe a quantidade de pessoas na mesa</string>
+    <string name="descBotaoCompartilhar">Compartilhe o valor individual da conta com os seus amigos</string>
+    <string name="descBotaoFalar">Escute o valor individual da conta</string>
+
+    <string name="txtValorConta">Informe o valor da conta...</string>
+    <string name="txtQtdPessoas">Informe a quantidade de pessoas para dividir a conta...</string>
+    <string name="txtResultado">O valor para cada pessoa é R$ </string>
+    <string name="unidadeMoeda">R$ </string>
+    <string name="toastTTSAtivado">TTS ativado...</string>
+    <string name="toastTTSDesativado">Sem TTS habilitado...</string>
+
+</resources>

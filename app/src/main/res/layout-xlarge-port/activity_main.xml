@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B9C6C8"
+    android:textAlignment="center"
+    tools:context=".VamosRacharActivity">
+
+    <ImageView
+        android:id="@+id/imgTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/descLogoApp"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.191"
+        app:srcCompat="@drawable/ic_icone_texto"
+        tools:srcCompat="@drawable/ic_icone_texto" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fbtAudio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:clickable="true"
+        android:contentDescription="@string/descBotaoFalar"
+        android:scaleX="1.8"
+        android:scaleY="1.8"
+        app:backgroundTint="@android:color/holo_blue_dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/fbtCompartilhar"
+        app:layout_constraintTop_toBottomOf="@+id/txtResultado"
+        app:srcCompat="@drawable/ic_icone_alto_falante" />
+
+    <EditText
+        android:id="@+id/edtQuantidadePessoas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/descEntradaQtdPessoas"
+        android:ems="10"
+        android:inputType="number"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imgQuantidadePessoas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imgQuantidadePessoas"
+        app:layout_constraintTop_toTopOf="@+id/imgQuantidadePessoas"
+        app:layout_constraintVertical_bias="0.285" />
+
+    <EditText
+        android:id="@+id/edtValor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/descEntradaValor"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imgValor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imgValor"
+        app:layout_constraintTop_toTopOf="@+id/imgValor"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imgQuantidadePessoas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:contentDescription="@null"
+        android:scaleX="2"
+        android:scaleY="2"
+        app:layout_constraintEnd_toStartOf="@+id/edtQuantidadePessoas"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgValor"
+        app:srcCompat="@drawable/ic_icone_qtd_pessoas" />
+
+    <TextView
+        android:id="@+id/txtResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="104dp"
+        android:contentDescription="@null"
+        android:fontFamily="sans-serif-black"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgQuantidadePessoas" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fbtCompartilhar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:clickable="true"
+        android:contentDescription="@string/descBotaoCompartilhar"
+        android:scaleX="1.8"
+        android:scaleY="1.8"
+        app:backgroundTint="@android:color/holo_blue_dark"
+        app:layout_constraintEnd_toStartOf="@+id/fbtAudio"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtResultado"
+        app:srcCompat="@drawable/ic_icone_compartilhar" />
+
+    <ImageView
+        android:id="@+id/imgValor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:contentDescription="@null"
+        android:scaleX="2"
+        android:scaleY="2"
+        app:layout_constraintEnd_toStartOf="@+id/edtValor"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgTitulo"
+        app:srcCompat="@drawable/ic_icone_dinheiro" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

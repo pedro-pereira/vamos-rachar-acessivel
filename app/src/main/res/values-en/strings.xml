@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">Lets crack</string>
+
+    <string name="descLogoApp">Application logo lets crack</string>
+    <string name="descEntradaValor">Enter the total amount of the account</string>
+    <string name="descEntradaQtdPessoas">Enter the number of people at the table</string>
+    <string name="descBotaoCompartilhar">Share the individual account value with your friends</string>
+    <string name="descBotaoFalar">Listen to the individual account value</string>
+
+    <string name="txtValorConta">Enter the account amount...</string>
+    <string name="txtQtdPessoas">Inform the number of people to split the bill...</string>
+    <string name="txtResultado">The value for each person is US$ </string>
+    <string name="unidadeMoeda">US$ </string>
+    <string name="toastTTSAtivado">TTS enabled...</string>
+    <string name="toastTTSDesativado">TTS disabled...</string>
+</resources>
